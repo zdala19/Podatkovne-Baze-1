@@ -1,0 +1,10 @@
+SELECT naslov, leto* zasluzek AS kajPaVemKaj
+
+FROM film
+
+WHERE leto BETWEEN 1998 AND 2002
+AND ocena > 4.5
+--
+/**/
+ORDER BY zasluzek DESC
+LIMIT 10
